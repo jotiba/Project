@@ -16,7 +16,7 @@ public class CallApi {
 		con.setRequestMethod("GET");
 		con.setRequestProperty("Accept", "application/json");
 		
-		
+		System.out.println("hello");
 		
 		if(con.getResponseCode()==200) {
 			BufferedReader br = new BufferedReader(new InputStreamReader(
